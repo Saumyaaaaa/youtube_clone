@@ -7,7 +7,7 @@ import upload_icon from "../../assets/upload.png"
 import more_icon from "../../assets/more.png"
 import notification_icon from "../../assets/notification.png"
 import profile_icon from "../../assets/jack.png"
-const Navbar = (setSidebar) => {
+const Navbar = ({setSidebar}) => {
   return (
     <nav className='flex-div'>
         <div className="nav-left flex-div">
